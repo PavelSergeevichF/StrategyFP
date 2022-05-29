@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{B7D93E68-5AC1-BF84-C4A1-9F22F46F0DEB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserControlSystem", "UserControlSystem.csproj", "{4D349D53-EDA0-1819-D44D-DB28493E3408}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abstractions", "Abstractions.csproj", "{832F50FA-66AA-6E3E-45DF-CE118CACE15A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Core.csproj", "{532848CF-55EF-350E-1560-4F6FA659EBBE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B7D93E68-5AC1-BF84-C4A1-9F22F46F0DEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7D93E68-5AC1-BF84-C4A1-9F22F46F0DEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7D93E68-5AC1-BF84-C4A1-9F22F46F0DEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7D93E68-5AC1-BF84-C4A1-9F22F46F0DEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D349D53-EDA0-1819-D44D-DB28493E3408}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D349D53-EDA0-1819-D44D-DB28493E3408}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D349D53-EDA0-1819-D44D-DB28493E3408}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D349D53-EDA0-1819-D44D-DB28493E3408}.Release|Any CPU.Build.0 = Release|Any CPU
+		{832F50FA-66AA-6E3E-45DF-CE118CACE15A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{832F50FA-66AA-6E3E-45DF-CE118CACE15A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{832F50FA-66AA-6E3E-45DF-CE118CACE15A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{832F50FA-66AA-6E3E-45DF-CE118CACE15A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{532848CF-55EF-350E-1560-4F6FA659EBBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{532848CF-55EF-350E-1560-4F6FA659EBBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{532848CF-55EF-350E-1560-4F6FA659EBBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{532848CF-55EF-350E-1560-4F6FA659EBBE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
