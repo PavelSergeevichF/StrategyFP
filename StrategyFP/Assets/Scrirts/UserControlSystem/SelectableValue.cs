@@ -9,10 +9,12 @@ namespace UserControlSystem
     { 
         public ISelectable CurrentValue { get; private set; }
         public event Action<ISelectable> OnSelected;
+        public event Action<ISelectable> NewValue;
         public void SetValue(ISelectable value)
         {
             CurrentValue = value;
             OnSelected?.Invoke(value);
+            NewValue?.Invoke(value);
         }
     }
 }

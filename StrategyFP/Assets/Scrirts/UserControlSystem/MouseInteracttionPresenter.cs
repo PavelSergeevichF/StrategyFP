@@ -24,8 +24,5 @@ public class MouseInteracttionPresenter : MonoBehaviour
             .Select(hit => hit.collider.GetComponentInParent<ISelectable>())
             .FirstOrDefault(c => c != null);
         _selectedObject.SetValue(selectable);
-        var selectionBuilding = hits
-            .Select(hit => hit.collider.GetComponentInParent<Outline>());
-        //selectionBuilding.Activity(true);
     }
 }
