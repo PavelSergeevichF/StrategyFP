@@ -1,7 +1,16 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\StrategyFP",
+    "\\StrategyFP\\Assets",
+    "\\StrategyFP\\Assets\\Scripts",
+    "\\StrategyFP\\Assets\\Scripts\\UserControlSystem",
+    "\\StrategyFP\\Assets\\Scripts\\UserControlSystem\\CommandsRealization",
+    "\\StrategyFP\\Assets\\Scripts\\UserControlSystem\\UI",
+    "\\StrategyFP\\Assets\\Scripts\\UserControlSystem\\UI\\Model",
+    "\\StrategyFP\\Assets\\Scripts\\UserControlSystem\\UI\\Presenter",
+    "\\StrategyFP\\Assets\\Scripts\\UserControlSystem\\UI\\View"
   ],
-  "SelectedNode": "\\StrategyFP.sln",
+  "SelectedNode": "\\StrategyFP\\Assets\\Scripts\\UserControlSystem\\UI\\Model\\SelectableValue.cs",
   "PreviewInSolutionExplorer": false
 }

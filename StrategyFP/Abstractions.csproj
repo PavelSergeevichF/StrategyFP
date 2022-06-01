@@ -56,11 +56,19 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scrirts\Abstractions\ISelectable.cs" />
-    <Compile Include="Assets\Scrirts\Abstractions\IUnitProducer.cs" />
+    <Compile Include="Assets\Scripts\Abstractions\Commands\CommandsInterfaces\IMoveCommand.cs" />
+    <Compile Include="Assets\Scripts\Abstractions\Commands\ICommand.cs" />
+    <Compile Include="Assets\Scripts\Abstractions\Commands\CommandExecutorBase.cs" />
+    <Compile Include="Assets\Scripts\Abstractions\Commands\CommandsInterfaces\IPatrolCommand.cs" />
+    <Compile Include="Assets\Scripts\Abstractions\IUnitProducer.cs" />
+    <Compile Include="Assets\Scripts\Abstractions\ISelectable.cs" />
+    <Compile Include="Assets\Scripts\Abstractions\Commands\CommandsInterfaces\IProduceUnitCommand.cs" />
+    <Compile Include="Assets\Scripts\Abstractions\Commands\CommandsInterfaces\IAttackCommand.cs" />
+    <Compile Include="Assets\Scripts\Abstractions\Commands\CommandsInterfaces\IStopCommand.cs" />
+    <Compile Include="Assets\Scripts\Abstractions\Commands\ICommandExecutor.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\Scrirts\Abstractions\Abstractions.asmdef" />
+    <None Include="Assets\Scripts\Abstractions\Abstractions.asmdef" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

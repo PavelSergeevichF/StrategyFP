@@ -8,8 +8,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <RootNamespace>
-    </RootNamespace>
+    <RootNamespace></RootNamespace>
     <ProjectGuid>{532848CF-55EF-350E-1560-4F6FA659EBBE}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -57,10 +56,10 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scrirts\Core\MainBuilding.cs" />
+    <Compile Include="Assets\Scripts\Core\MainBuilding.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\Scrirts\Core\Core.asmdef" />
+    <None Include="Assets\Scripts\Core\Core.asmdef" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -683,10 +682,6 @@
     <ProjectReference Include="Abstractions.csproj">
       <Project>{832F50FA-66AA-6E3E-45DF-CE118CACE15A}</Project>
       <Name>Abstractions</Name>
-    </ProjectReference>
-    <ProjectReference Include="UserControlSystem.csproj">
-      <Project>{4D349D53-EDA0-1819-D44D-DB28493E3408}</Project>
-      <Name>UserControlSystem</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
