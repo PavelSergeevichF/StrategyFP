@@ -683,6 +683,14 @@
       <Project>{832F50FA-66AA-6E3E-45DF-CE118CACE15A}</Project>
       <Name>Abstractions</Name>
     </ProjectReference>
+    <ProjectReference Include="UserControlSystem.csproj">
+      <Project>{4D349D53-EDA0-1819-D44D-DB28493E3408}</Project>
+      <Name>UserControlSystem</Name>
+    </ProjectReference>
+    <ProjectReference Include="Model.csproj">
+      <Project>{80670865-3D15-B7D3-1715-923D4107E689}</Project>
+      <Name>Model</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />

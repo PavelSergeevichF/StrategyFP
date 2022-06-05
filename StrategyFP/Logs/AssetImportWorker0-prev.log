@@ -15,11 +15,11 @@ C:/unityC/GB/StrategyFP/StrategyFP
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50010
+58987
 Successfully changed project path to: C:/unityC/GB/StrategyFP/StrategyFP
 C:/unityC/GB/StrategyFP/StrategyFP
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 93.83 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 183.76 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.30f1 (1fb1bf06830e)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/Resources/UnitySubsystems
@@ -35,113 +35,95 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56796
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56024
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
-Registered in 0.009348 seconds.
+Registered in 0.011613 seconds.
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 88.09 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 131.38 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.568 seconds
+- Completed reload, in  2.662 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1569ms)
-		BeginReloadAssembly (186ms)
+	ReloadAssembly (2662ms)
+		BeginReloadAssembly (329ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (2ms)
-		EndReloadAssembly (1169ms)
-			LoadAssemblies (183ms)
+		EndReloadAssembly (2028ms)
+			LoadAssemblies (324ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (359ms)
+			SetupTypeCache (596ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (84ms)
-			SetupLoadedEditorAssemblies (454ms)
+			RebuildScriptCaches (138ms)
+			SetupLoadedEditorAssemblies (837ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (21ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (88ms)
-				BeforeProcessingInitializeOnLoad (51ms)
-				ProcessInitializeOnLoadAttributes (222ms)
-				ProcessInitializeOnLoadMethodAttributes (71ms)
+				InitializePlatformSupportModulesInManaged (28ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (132ms)
+				BeforeProcessingInitializeOnLoad (65ms)
+				ProcessInitializeOnLoadAttributes (500ms)
+				ProcessInitializeOnLoadMethodAttributes (109ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.010422 seconds.
-Assembly with name 'Abstractions' already exists (Assets/Scrirts/Abstractions/Abstractions.asmdef)
-Assembly with name 'Abstractions' already exists (Assets/Scripts/Abstractions/Abstractions.asmdef)
-Assembly with name 'UserControlSystem' already exists (Assets/Scrirts/UserControlSystem/UserControlSystem.asmdef)
-Assembly with name 'UserControlSystem' already exists (Assets/Scripts/UserControlSystem/UserControlSystem.asmdef)
-Assembly with name 'Core' already exists (Assets/Scrirts/Core/Core.asmdef)
-Assembly with name 'Core' already exists (Assets/Scripts/Core/Core.asmdef)
-Assembly with name 'Abstractions' already exists (Assets/Scrirts/Abstractions/Abstractions.asmdef)
-Assembly with name 'Abstractions' already exists (Assets/Scripts/Abstractions/Abstractions.asmdef)
-Assembly with name 'UserControlSystem' already exists (Assets/Scrirts/UserControlSystem/UserControlSystem.asmdef)
-Assembly with name 'UserControlSystem' already exists (Assets/Scripts/UserControlSystem/UserControlSystem.asmdef)
-Assembly with name 'Core' already exists (Assets/Scrirts/Core/Core.asmdef)
-Assembly with name 'Core' already exists (Assets/Scripts/Core/Core.asmdef)
+Registered in 0.013341 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.92 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.13 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Assembly with name 'Abstractions' already exists (Assets/Scrirts/Abstractions/Abstractions.asmdef)
-Assembly with name 'Abstractions' already exists (Assets/Scripts/Abstractions/Abstractions.asmdef)
-Assembly with name 'UserControlSystem' already exists (Assets/Scrirts/UserControlSystem/UserControlSystem.asmdef)
-Assembly with name 'UserControlSystem' already exists (Assets/Scripts/UserControlSystem/UserControlSystem.asmdef)
-Assembly with name 'Core' already exists (Assets/Scrirts/Core/Core.asmdef)
-Assembly with name 'Core' already exists (Assets/Scripts/Core/Core.asmdef)
 Mono: successfully reloaded assembly
-- Completed reload, in  2.751 seconds
+- Completed reload, in  5.767 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2754ms)
-		BeginReloadAssembly (396ms)
+	ReloadAssembly (5770ms)
+		BeginReloadAssembly (680ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (12ms)
+			DisableScriptedObjects (17ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (50ms)
-		EndReloadAssembly (2189ms)
-			LoadAssemblies (266ms)
+			CreateAndSetChildDomain (64ms)
+		EndReloadAssembly (4822ms)
+			LoadAssemblies (442ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (689ms)
+			SetupTypeCache (1378ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (126ms)
-			SetupLoadedEditorAssemblies (911ms)
+			RebuildScriptCaches (327ms)
+			SetupLoadedEditorAssemblies (2346ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (21ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (299ms)
-				ProcessInitializeOnLoadAttributes (531ms)
-				ProcessInitializeOnLoadMethodAttributes (32ms)
-				AfterProcessingInitializeOnLoad (25ms)
+				InitializePlatformSupportModulesInManaged (31ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (801ms)
+				ProcessInitializeOnLoadAttributes (1412ms)
+				ProcessInitializeOnLoadMethodAttributes (52ms)
+				AfterProcessingInitializeOnLoad (46ms)
 				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (19ms)
+			AwakeInstancesAfterBackupRestoration (27ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.15 seconds
-Refreshing native plugins compatible for Editor in 1.08 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.17 seconds
+Refreshing native plugins compatible for Editor in 1.17 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1602 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 80.2 MB.
-System memory in use after: 80.3 MB.
+Unloading 1597 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 80.1 MB.
+System memory in use after: 80.2 MB.
 
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2039.
-Total: 6.647100 ms (FindLiveObjects: 0.369200 ms CreateObjectMapping: 0.241100 ms MarkObjects: 5.812400 ms  DeleteObjects: 0.222000 ms)
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2034.
+Total: 16.200200 ms (FindLiveObjects: 0.788800 ms CreateObjectMapping: 1.041700 ms MarkObjects: 14.069700 ms  DeleteObjects: 0.296600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -155,128 +137,56 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Scripts/UserControlSystem/UserControlSystem.asmdef
-  artifactKey: Guid(dbfbfad5a37e3174393f973955b760ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/UserControlSystem/UserControlSystem.asmdef using Guid(dbfbfad5a37e3174393f973955b760ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fe60293a7429f06d12ad09ea9ef4807') in 0.080816 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 40.926930 seconds.
-  path: Assets/Scripts/Abstractions/Abstractions.asmdef
-  artifactKey: Guid(2728968faebc67b4f9216c44328da7f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Abstractions/Abstractions.asmdef using Guid(2728968faebc67b4f9216c44328da7f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cd997bc60422ea93094ff57df63c2f3') in 0.008674 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.295754 seconds.
-  path: Assets/Scripts/Abstractions/Commands
-  artifactKey: Guid(d883049a7fb94d22ac6f7c25a91573fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Abstractions/Commands using Guid(d883049a7fb94d22ac6f7c25a91573fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bf3b87e4e95217d4b7a858ec55b313b') in 0.010774 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 163.459508 seconds.
   path: Assets/Scripts/Core/Core.asmdef
   artifactKey: Guid(c99fbfd7ae2dc284b96f493883a9a4c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Core/Core.asmdef using Guid(c99fbfd7ae2dc284b96f493883a9a4c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d4703c9f451fdfb989b13e9aec40b7e') in 0.027632 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 77.437104 seconds.
-  path: Assets/Scripts/Core/MainBuilding.cs
-  artifactKey: Guid(14e01563d37a23f4e9bae517fb3e14dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Core/MainBuilding.cs using Guid(14e01563d37a23f4e9bae517fb3e14dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04ccce6bb3ebc12095027b87c13549dc') in 0.088287 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 86.179521 seconds.
-  path: Assets/Scripts/Core/MainBuilding.cs
-  artifactKey: Guid(14e01563d37a23f4e9bae517fb3e14dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Core/MainBuilding.cs using Guid(14e01563d37a23f4e9bae517fb3e14dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4055c17a99cd3519eb78a076e1d30c4a') in 0.036879 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 24.265386 seconds.
-  path: Assets/Scripts/Core/MainBuilding.cs
-  artifactKey: Guid(14e01563d37a23f4e9bae517fb3e14dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Core/MainBuilding.cs using Guid(14e01563d37a23f4e9bae517fb3e14dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2d8fcd123a90a962887c8aa7848f0cb') in 0.124515 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 12.316023 seconds.
-  path: Assets/Scripts/Core/MainBuilding.cs
-  artifactKey: Guid(14e01563d37a23f4e9bae517fb3e14dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Core/MainBuilding.cs using Guid(14e01563d37a23f4e9bae517fb3e14dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e606b6d659ef89cf23443619b807be7') in 0.057829 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 27.382977 seconds.
-  path: Assets/Scripts/Core/MainBuilding.cs
-  artifactKey: Guid(14e01563d37a23f4e9bae517fb3e14dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Core/MainBuilding.cs using Guid(14e01563d37a23f4e9bae517fb3e14dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fc568264cc65ae1145e7b119a685298') in 0.010732 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 32.578775 seconds.
-  path: Assets/Scrirts/Core/MainBuilding.cs
-  artifactKey: Guid(974b4936f233b9b449fbaa9b2cc9a13d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scrirts/Core/MainBuilding.cs using Guid(974b4936f233b9b449fbaa9b2cc9a13d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '362b2fbf845978af3e0fffe2b69ef5e1') in 0.006847 seconds 
+Start importing Assets/Scripts/Core/Core.asmdef using Guid(c99fbfd7ae2dc284b96f493883a9a4c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bd62a8742316b9a32e03495cb31947d') in 0.218222 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.013000 seconds.
-Assembly with name 'Abstractions' already exists (Assets/Scrirts/Abstractions/Abstractions.asmdef)
-Assembly with name 'Abstractions' already exists (Assets/Scripts/Abstractions/Abstractions.asmdef)
-Assembly with name 'UserControlSystem' already exists (Assets/Scrirts/UserControlSystem/UserControlSystem.asmdef)
-Assembly with name 'UserControlSystem' already exists (Assets/Scripts/UserControlSystem/UserControlSystem.asmdef)
-Assembly with name 'Core' already exists (Assets/Scrirts/Core/Core.asmdef)
-Assembly with name 'Core' already exists (Assets/Scripts/Core/Core.asmdef)
-Assembly with name 'Abstractions' already exists (Assets/Scrirts/Abstractions/Abstractions.asmdef)
-Assembly with name 'Abstractions' already exists (Assets/Scripts/Abstractions/Abstractions.asmdef)
-Assembly with name 'UserControlSystem' already exists (Assets/Scrirts/UserControlSystem/UserControlSystem.asmdef)
-Assembly with name 'UserControlSystem' already exists (Assets/Scripts/UserControlSystem/UserControlSystem.asmdef)
-Assembly with name 'Core' already exists (Assets/Scrirts/Core/Core.asmdef)
-Assembly with name 'Core' already exists (Assets/Scripts/Core/Core.asmdef)
+Registered in 0.011184 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 1.06 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.16 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Assembly with name 'Abstractions' already exists (Assets/Scrirts/Abstractions/Abstractions.asmdef)
-Assembly with name 'Abstractions' already exists (Assets/Scripts/Abstractions/Abstractions.asmdef)
-Assembly with name 'UserControlSystem' already exists (Assets/Scrirts/UserControlSystem/UserControlSystem.asmdef)
-Assembly with name 'UserControlSystem' already exists (Assets/Scripts/UserControlSystem/UserControlSystem.asmdef)
-Assembly with name 'Core' already exists (Assets/Scrirts/Core/Core.asmdef)
-Assembly with name 'Core' already exists (Assets/Scripts/Core/Core.asmdef)
 Mono: successfully reloaded assembly
-- Completed reload, in  2.964 seconds
+- Completed reload, in  3.046 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2966ms)
-		BeginReloadAssembly (430ms)
+	ReloadAssembly (3048ms)
+		BeginReloadAssembly (350ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (13ms)
+			DisableScriptedObjects (19ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (93ms)
-		EndReloadAssembly (2307ms)
-			LoadAssemblies (385ms)
+			CreateAndSetChildDomain (102ms)
+		EndReloadAssembly (2502ms)
+			LoadAssemblies (307ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (708ms)
+			SetupTypeCache (781ms)
 			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (110ms)
-			SetupLoadedEditorAssemblies (1025ms)
+			RebuildScriptCaches (143ms)
+			SetupLoadedEditorAssemblies (974ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (23ms)
+				InitializePlatformSupportModulesInManaged (35ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (332ms)
-				ProcessInitializeOnLoadAttributes (621ms)
-				ProcessInitializeOnLoadMethodAttributes (23ms)
-				AfterProcessingInitializeOnLoad (23ms)
+				BeforeProcessingInitializeOnLoad (243ms)
+				ProcessInitializeOnLoadAttributes (642ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
+				AfterProcessingInitializeOnLoad (22ms)
 				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (17ms)
+			AwakeInstancesAfterBackupRestoration (22ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.23 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.55 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1569 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 77.4 MB.
-System memory in use after: 77.5 MB.
+Unloading 1565 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 77.3 MB.
+System memory in use after: 77.4 MB.
 
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2040.
-Total: 6.680200 ms (FindLiveObjects: 0.341500 ms CreateObjectMapping: 0.125300 ms MarkObjects: 6.115100 ms  DeleteObjects: 0.095200 ms)
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2036.
+Total: 6.836600 ms (FindLiveObjects: 0.377700 ms CreateObjectMapping: 0.134700 ms MarkObjects: 6.237900 ms  DeleteObjects: 0.083900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -288,266 +198,4 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 38.902082 seconds.
-  path: Assets/Scripts/Core
-  artifactKey: Guid(687387e1a61bb1b42834bd6aeb01d52e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Core using Guid(687387e1a61bb1b42834bd6aeb01d52e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f599fa70474db2d45c5e2b74212af78a') in 0.023109 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.009254 seconds.
-Assembly with name 'Abstractions' already exists (Assets/Scrirts/Abstractions/Abstractions.asmdef)
-Assembly with name 'Abstractions' already exists (Assets/Scripts/Abstractions/Abstractions.asmdef)
-Assembly with name 'UserControlSystem' already exists (Assets/Scrirts/UserControlSystem/UserControlSystem.asmdef)
-Assembly with name 'UserControlSystem' already exists (Assets/Scripts/UserControlSystem/UserControlSystem.asmdef)
-Assembly with name 'Abstractions' already exists (Assets/Scrirts/Abstractions/Abstractions.asmdef)
-Assembly with name 'Abstractions' already exists (Assets/Scripts/Abstractions/Abstractions.asmdef)
-Assembly with name 'UserControlSystem' already exists (Assets/Scrirts/UserControlSystem/UserControlSystem.asmdef)
-Assembly with name 'UserControlSystem' already exists (Assets/Scripts/UserControlSystem/UserControlSystem.asmdef)
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.98 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Assembly with name 'Abstractions' already exists (Assets/Scrirts/Abstractions/Abstractions.asmdef)
-Assembly with name 'Abstractions' already exists (Assets/Scripts/Abstractions/Abstractions.asmdef)
-Assembly with name 'UserControlSystem' already exists (Assets/Scrirts/UserControlSystem/UserControlSystem.asmdef)
-Assembly with name 'UserControlSystem' already exists (Assets/Scripts/UserControlSystem/UserControlSystem.asmdef)
-Mono: successfully reloaded assembly
-- Completed reload, in  3.075 seconds
-Domain Reload Profiling:
-	ReloadAssembly (3077ms)
-		BeginReloadAssembly (411ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (16ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (100ms)
-		EndReloadAssembly (2435ms)
-			LoadAssemblies (458ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (772ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (119ms)
-			SetupLoadedEditorAssemblies (965ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (21ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (337ms)
-				ProcessInitializeOnLoadAttributes (528ms)
-				ProcessInitializeOnLoadMethodAttributes (23ms)
-				AfterProcessingInitializeOnLoad (51ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (20ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.03 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1569 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 77.5 MB.
-System memory in use after: 77.6 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2042.
-Total: 6.751800 ms (FindLiveObjects: 0.401400 ms CreateObjectMapping: 0.239800 ms MarkObjects: 6.024400 ms  DeleteObjects: 0.083600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 20.871740 seconds.
-  path: Assets/Scripts/Core/Core.asmdef
-  artifactKey: Guid(c99fbfd7ae2dc284b96f493883a9a4c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Core/Core.asmdef using Guid(c99fbfd7ae2dc284b96f493883a9a4c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a59f5bea75d458cdb0ed4285adb34886') in 0.713589 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 68.266682 seconds.
-  path: Assets/Scripts/UserControlSystem/CommandsRealization
-  artifactKey: Guid(58f7a9a77bcf45e593e8faf2158b4f64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/UserControlSystem/CommandsRealization using Guid(58f7a9a77bcf45e593e8faf2158b4f64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c4cbdcc6827897050b28f291f682cf7') in 0.053604 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.156563 seconds.
-  path: Assets/Scripts/UserControlSystem/UI/Presenter/Presenter.asmdef
-  artifactKey: Guid(de05c123335cb594e84fb0a2c69837f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/UserControlSystem/UI/Presenter/Presenter.asmdef using Guid(de05c123335cb594e84fb0a2c69837f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02e45d1e125d2493bce6629cc24f5526') in 0.022200 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.885846 seconds.
-  path: Assets/Scripts/UserControlSystem/UI/View/View.asmdef
-  artifactKey: Guid(4d887ff6863162e42a4c998e6fbed867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/UserControlSystem/UI/View/View.asmdef using Guid(4d887ff6863162e42a4c998e6fbed867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '445ab36a511607d930f191221c4f2076') in 0.009571 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.207049 seconds.
-  path: Assets/Scripts/UserControlSystem/UI/Model/Model.asmdef
-  artifactKey: Guid(9ce26035fa123f545bf380d41efe8769) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/UserControlSystem/UI/Model/Model.asmdef using Guid(9ce26035fa123f545bf380d41efe8769) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58493d74d88f844385970b3b504de0bf') in 0.009846 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.799896 seconds.
-  path: Assets/Sprites/MainBuilding.png
-  artifactKey: Guid(712262adeebd1924cad36360993fca8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/MainBuilding.png using Guid(712262adeebd1924cad36360993fca8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee1a8f943695adad09755d8b7d8017f5') in 0.404361 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000936 seconds.
-  path: Assets/Sprites/Unit.png
-  artifactKey: Guid(9908913e928c42d4f9f1891893bbc424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Unit.png using Guid(9908913e928c42d4f9f1891893bbc424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '146600c8c654c040cb4455d271284147') in 0.113363 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 15.108666 seconds.
-  path: Assets/Scrirts/Core/Core.asmdef
-  artifactKey: Guid(96f73899ac182e0468d8e08592e604b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scrirts/Core/Core.asmdef using Guid(96f73899ac182e0468d8e08592e604b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '632f94310f9256b6dc13a5ed3981fd5e') in 0.109360 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 437.652611 seconds.
-  path: Assets/Scripts/Utils/Utils.asmdef
-  artifactKey: Guid(29f1c49583a08bc44a23b42d7c43c18e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Utils/Utils.asmdef using Guid(29f1c49583a08bc44a23b42d7c43c18e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21cc3c3456967a6f71fd58260ef68b35') in 0.044001 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 60.772390 seconds.
-  path: Assets/Scripts/Abstractions/Commands/ICommand.cs
-  artifactKey: Guid(b685117f1a3b45909548bfb1ea4ab87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Abstractions/Commands/ICommand.cs using Guid(b685117f1a3b45909548bfb1ea4ab87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df2e4eae08146eac9101e1e0ca06903f') in 0.055769 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 26.148074 seconds.
-  path: Assets/Scripts/Abstractions/ISelectable.cs
-  artifactKey: Guid(16e056458dfd4789b9596f160b58b1d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Abstractions/ISelectable.cs using Guid(16e056458dfd4789b9596f160b58b1d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76bd5c9dde204c0e7c5059e475da2e01') in 0.052899 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 40.952577 seconds.
-  path: Assets/Scripts/Abstractions/IUnitProducer.cs
-  artifactKey: Guid(b01c058500794e1fa9d09eb5cc284447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Abstractions/IUnitProducer.cs using Guid(b01c058500794e1fa9d09eb5cc284447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5263b0364764365b7ee281dc333e878') in 0.031877 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 13.056121 seconds.
-  path: Assets/Scrirts/Abstractions/IUnitProducer.cs
-  artifactKey: Guid(c950be2fdabb2c84c9b8ec17d9f1b977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scrirts/Abstractions/IUnitProducer.cs using Guid(c950be2fdabb2c84c9b8ec17d9f1b977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaa8cb0d3f96da8f5ed84ee50489a4cb') in 0.010215 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 137.583156 seconds.
-  path: Assets/Scripts/UserControlSystem/UI/Presenter/MouseInteractionPresenter.cs
-  artifactKey: Guid(7751111c10f04340acd5d99bc2a8555e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/UserControlSystem/UI/Presenter/MouseInteractionPresenter.cs using Guid(7751111c10f04340acd5d99bc2a8555e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3582b1f806ac2fdd63619adcf48fdb4f') in 0.019981 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 51.890103 seconds.
-  path: Assets/Scripts/Core/Core.asmdef
-  artifactKey: Guid(c99fbfd7ae2dc284b96f493883a9a4c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Core/Core.asmdef using Guid(c99fbfd7ae2dc284b96f493883a9a4c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ef330304b08194a0e1f19e79be013d0') in 0.009880 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 15.924917 seconds.
-  path: Assets/ScriptableObject/SelectableValue.asset
-  artifactKey: Guid(7141aae4b16134e49af0215b6da77bcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ScriptableObject/SelectableValue.asset using Guid(7141aae4b16134e49af0215b6da77bcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8ee53ac8d2851b48d756d4a283c095c') in 0.025096 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 32.726602 seconds.
-  path: Assets/ScriptableObject/AssetsContext.asset
-  artifactKey: Guid(9b722f212be4657489da1141c6eb6c44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ScriptableObject/AssetsContext.asset using Guid(9b722f212be4657489da1141c6eb6c44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f942d19b80e5093875e618e21bfa459d') in 0.013006 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 9345.223706 seconds.
-  path: Assets/Scripts/Abstractions
-  artifactKey: Guid(16b8f0861b216e2448e88039f82c5cb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Abstractions using Guid(16b8f0861b216e2448e88039f82c5cb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e18322f12ad4f10ff329104936a65d3') in 0.017591 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 90.479778 seconds.
-  path: Assets/Scripts/Abstractions/NewBehaviourScript.cs
-  artifactKey: Guid(9d10f3f4d9da9b6469b6c278107da97b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Abstractions/NewBehaviourScript.cs using Guid(9d10f3f4d9da9b6469b6c278107da97b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61993ee238dad872758cf4f341f7238f') in 0.032126 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 318.949156 seconds.
-  path: Assets/Scripts/Abstractions/IStopCommand.cs
-  artifactKey: Guid(c06c5af6660d942488015fcafe6b551b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Abstractions/IStopCommand.cs using Guid(c06c5af6660d942488015fcafe6b551b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0cc58472373cfa1df758db1581f1b7d') in 0.020681 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1690.152713 seconds.
-  path: Assets/Scripts/Abstractions/Commands/CommandsInterfaces
-  artifactKey: Guid(8e884dbc37ff4f749fe31c4db9cc0086) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Abstractions/Commands/CommandsInterfaces using Guid(8e884dbc37ff4f749fe31c4db9cc0086) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2aefd9be893f49b74e74704ec37fe07d') in 0.016257 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.867040 seconds.
-  path: Assets/Scripts/Abstractions/Commands/CommandsInterfaces/IStopCommand.cs
-  artifactKey: Guid(354b3accc4634272bfc3f8aa0992d4bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Abstractions/Commands/CommandsInterfaces/IStopCommand.cs using Guid(354b3accc4634272bfc3f8aa0992d4bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97374e797d43c9d4c6d2533345a5a571') in 0.013912 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 33.978356 seconds.
-  path: Assets/Scripts/Abstractions/Commands/CommandsInterfaces/IPatrolCommand.cs
-  artifactKey: Guid(92802f0701fb4eb1ae817f26a8215a30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Abstractions/Commands/CommandsInterfaces/IPatrolCommand.cs using Guid(92802f0701fb4eb1ae817f26a8215a30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3b5600ea3e2596620eabac3185e6b54') in 0.022094 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 31.126071 seconds.
-  path: Assets/Scripts/Abstractions/Commands/IMoveCommand.cs
-  artifactKey: Guid(8c5d81a3220968f47ac82a3d59f2235b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Abstractions/Commands/IMoveCommand.cs using Guid(8c5d81a3220968f47ac82a3d59f2235b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1c43e3bb643f8d00df0d6293c5f101f') in 0.030853 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.480044 seconds.
-  path: Assets/Scripts/Abstractions/Commands/IAttackCommand.cs
-  artifactKey: Guid(df425834bf659de438b528de0a43bb82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Abstractions/Commands/IAttackCommand.cs using Guid(df425834bf659de438b528de0a43bb82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bfa53ac4bf8420546015e2b4c270e53') in 0.016507 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 203.685961 seconds.
-  path: Assets/Scripts/UserControlSystem/UI
-  artifactKey: Guid(67d2775ee6bedd244b61ab35b9181bbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/UserControlSystem/UI using Guid(67d2775ee6bedd244b61ab35b9181bbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e34668493d6ecf7bc71232de4a9b2db') in 0.017360 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.609011 seconds.
-  path: Assets/Scripts/UserControlSystem/UI/Presenter
-  artifactKey: Guid(8d7010308a84ac14199983a80c003cb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/UserControlSystem/UI/Presenter using Guid(8d7010308a84ac14199983a80c003cb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac57822f3b7d346e41412f5f124d36f2') in 0.019141 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.612001 seconds.
-  path: Assets/Scripts/UserControlSystem/UI/View
-  artifactKey: Guid(61b148be90517ea4bb63177c526ad0b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/UserControlSystem/UI/View using Guid(61b148be90517ea4bb63177c526ad0b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '342b14562b4d3b650e1f9431cb011da6') in 0.040487 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 88.141837 seconds.
-  path: Assets/Image
-  artifactKey: Guid(1f2ab428e8d448b48965a6ec741522e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Image using Guid(1f2ab428e8d448b48965a6ec741522e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '287d790fda5fd6f6802ed8065a52d905') in 0.060496 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.663877 seconds.
-  path: Assets/Image/Image
-  artifactKey: Guid(8f25763badc68d94980d9994002fbb80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Image/Image using Guid(8f25763badc68d94980d9994002fbb80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc3b5d4af73cc94632bd6b1a1c8eb549') in 0.064112 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2671.440362 seconds.
-  path: Assets/Scripts/UserControlSystem/SelectableValue.cs
-  artifactKey: Guid(e38ef1b4ae19b00468bf407d84dd34ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/UserControlSystem/SelectableValue.cs using Guid(e38ef1b4ae19b00468bf407d84dd34ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b549bfaef18777380fc504bf1da8797') in 0.050981 seconds 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

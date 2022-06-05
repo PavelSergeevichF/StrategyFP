@@ -739,6 +739,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Abstractions.csproj">
+      <Project>{832F50FA-66AA-6E3E-45DF-CE118CACE15A}</Project>
+      <Name>Abstractions</Name>
+    </ProjectReference>
     <ProjectReference Include="UserControlSystem.csproj">
       <Project>{4D349D53-EDA0-1819-D44D-DB28493E3408}</Project>
       <Name>UserControlSystem</Name>
@@ -747,13 +751,13 @@
       <Project>{AA9A9D7A-CF4C-AD0C-2383-5AA7FA4F0127}</Project>
       <Name>Presenter</Name>
     </ProjectReference>
+    <ProjectReference Include="Core.csproj">
+      <Project>{532848CF-55EF-350E-1560-4F6FA659EBBE}</Project>
+      <Name>Core</Name>
+    </ProjectReference>
     <ProjectReference Include="Model.csproj">
       <Project>{80670865-3D15-B7D3-1715-923D4107E689}</Project>
       <Name>Model</Name>
-    </ProjectReference>
-    <ProjectReference Include="Abstractions.csproj">
-      <Project>{832F50FA-66AA-6E3E-45DF-CE118CACE15A}</Project>
-      <Name>Abstractions</Name>
     </ProjectReference>
     <ProjectReference Include="Utils.csproj">
       <Project>{496C54FA-0F96-5698-A9B8-7DC4045B6CFD}</Project>
@@ -762,10 +766,6 @@
     <ProjectReference Include="View.csproj">
       <Project>{8118A01B-2FBA-6C18-57DF-3422F632A4DA}</Project>
       <Name>View</Name>
-    </ProjectReference>
-    <ProjectReference Include="Core.csproj">
-      <Project>{532848CF-55EF-350E-1560-4F6FA659EBBE}</Project>
-      <Name>Core</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

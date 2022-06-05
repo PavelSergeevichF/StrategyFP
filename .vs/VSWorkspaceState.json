@@ -4,13 +4,14 @@
     "\\StrategyFP",
     "\\StrategyFP\\Assets",
     "\\StrategyFP\\Assets\\Scripts",
+    "\\StrategyFP\\Assets\\Scripts\\Abstractions",
+    "\\StrategyFP\\Assets\\Scripts\\Abstractions\\Commands",
+    "\\StrategyFP\\Assets\\Scripts\\Abstractions\\Commands\\CommandsInterfaces",
+    "\\StrategyFP\\Assets\\Scripts\\Core",
     "\\StrategyFP\\Assets\\Scripts\\UserControlSystem",
-    "\\StrategyFP\\Assets\\Scripts\\UserControlSystem\\CommandsRealization",
     "\\StrategyFP\\Assets\\Scripts\\UserControlSystem\\UI",
-    "\\StrategyFP\\Assets\\Scripts\\UserControlSystem\\UI\\Model",
-    "\\StrategyFP\\Assets\\Scripts\\UserControlSystem\\UI\\Presenter",
-    "\\StrategyFP\\Assets\\Scripts\\UserControlSystem\\UI\\View"
+    "\\StrategyFP\\Assets\\Scripts\\UserControlSystem\\UI\\Presenter"
   ],
-  "SelectedNode": "\\StrategyFP\\Assets\\Scripts\\UserControlSystem\\UI\\Model\\SelectableValue.cs",
+  "SelectedNode": "\\StrategyFP\\Assets\\Scripts\\Core\\MainBuilding.cs",
   "PreviewInSolutionExplorer": false
 }
