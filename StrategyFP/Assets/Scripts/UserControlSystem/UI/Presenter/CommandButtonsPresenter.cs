@@ -17,6 +17,10 @@ namespace UserControlSystem.UI.Presenter
         [SerializeField] private AssetsContext _context;
 
         private ISelectable _currentSelectable;
+        private void Awake()
+        {
+           
+        }
 
         private void Start()
         {
