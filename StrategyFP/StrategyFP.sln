@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Outline", "Outline.csproj", "{12C2C843-3977-DEDC-3D99-BE908CC66BC4}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{B7D93E68-5AC1-BF84-C4A1-9F22F46F0DEB}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Presenter", "Presenter.csproj", "{AA9A9D7A-CF4C-AD0C-2383-5AA7FA4F0127}"
@@ -23,6 +25,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{12C2C843-3977-DEDC-3D99-BE908CC66BC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12C2C843-3977-DEDC-3D99-BE908CC66BC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12C2C843-3977-DEDC-3D99-BE908CC66BC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12C2C843-3977-DEDC-3D99-BE908CC66BC4}.Release|Any CPU.Build.0 = Release|Any CPU
 		{B7D93E68-5AC1-BF84-C4A1-9F22F46F0DEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{B7D93E68-5AC1-BF84-C4A1-9F22F46F0DEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B7D93E68-5AC1-BF84-C4A1-9F22F46F0DEB}.Release|Any CPU.ActiveCfg = Release|Any CPU

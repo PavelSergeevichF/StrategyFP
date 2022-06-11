@@ -14,6 +14,7 @@ public sealed class BottomLeftPresenter : MonoBehaviour
 
     [SerializeField] private SelectableValue _selectedValue;
 
+
     private void Start()
     {
         _selectedValue.OnSelected += ONSelected;

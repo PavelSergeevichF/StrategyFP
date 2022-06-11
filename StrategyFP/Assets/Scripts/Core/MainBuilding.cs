@@ -28,7 +28,7 @@ namespace UserControlSystem
         private void ONSelected(ISelectable selected)
         {
             ExecuteSpecificCommand(_unitPrefab);
-            //_building.GetComponent<Ou>
+            _building.GetComponent<Outline>().Activity(true);
         }
         public override void ExecuteSpecificCommand(IProduceUnitCommand command)
             => Instantiate(command.UnitPrefab,
