@@ -54,9 +54,13 @@
   </PropertyGroup>
   <ItemGroup>
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
+    <Analyzer Include="C:\unityC\GB\StrategyFP\StrategyFP\Assets\Packages\Plugins\Zenject\OptionalExtras\ReflectionBaking\Lib\Zenject.ReflectionBaking.Mono.Cecil.Pdb.dll" />
+    <Analyzer Include="C:\unityC\GB\StrategyFP\StrategyFP\Assets\Packages\Plugins\Zenject\OptionalExtras\ReflectionBaking\Lib\Zenject.ReflectionBaking.Mono.Cecil.Mdb.dll" />
+    <Analyzer Include="C:\unityC\GB\StrategyFP\StrategyFP\Assets\Packages\Plugins\Zenject\Source\Usage\Zenject-usage.dll" />
+    <Analyzer Include="C:\unityC\GB\StrategyFP\StrategyFP\Assets\Packages\Plugins\Zenject\OptionalExtras\ReflectionBaking\Lib\Zenject.ReflectionBaking.Mono.Cecil.dll" />
+    <Analyzer Include="C:\unityC\GB\StrategyFP\StrategyFP\Assets\Packages\Plugins\Zenject\OptionalExtras\ReflectionBaking\Lib\Zenject.ReflectionBaking.Mono.Cecil.Rocks.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Packages\QuickOutline\Scripts\Outline.cs" />
     <Compile Include="Assets\Packages\TextMesh Pro\Examples &amp; Extras\Scripts\ShaderPropAnimator.cs" />
     <Compile Include="Assets\Packages\TextMesh Pro\Examples &amp; Extras\Scripts\SkewTextExample.cs" />
     <Compile Include="Assets\Packages\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
@@ -103,7 +107,6 @@
     <None Include="Assets\Packages\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
     <None Include="Assets\Packages\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
     <None Include="Assets\Packages\3D Game Kit - Character Pack\Shaders\EyeLash.shader" />
-    <None Include="Assets\Packages\QuickOutline\Resources\Shaders\OutlineMask.shader" />
     <None Include="Assets\Packages\3D Game Kit - Environment Pack\Shaders\Vegetation.shader" />
     <None Include="Assets\Packages\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\Packages\3D Game Kit - Environment Pack\Shaders\GroundCover.shader" />
@@ -116,7 +119,6 @@
     <None Include="Assets\Packages\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
     <None Include="Assets\Packages\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
     <None Include="Assets\Packages\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
-    <None Include="Assets\Packages\QuickOutline\Readme.txt" />
     <None Include="Assets\Packages\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
     <None Include="Assets\Packages\3D Game Kit - Character Pack\Characters\Spitter\AnimationClips\animations.txt" />
     <None Include="Assets\Packages\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
@@ -125,7 +127,6 @@
     <None Include="Assets\Packages\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
     <None Include="Assets\Packages\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
     <None Include="Assets\Packages\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
-    <None Include="Assets\Packages\QuickOutline\Resources\Shaders\OutlineFill.shader" />
     <None Include="Assets\Packages\3D Game Kit - Character Pack\Shaders\ToonSkin.shader" />
     <None Include="Assets\Packages\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
     <None Include="Assets\Packages\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
@@ -355,6 +356,21 @@
     </Reference>
     <Reference Include="UnityEditor.UnityConnectModule">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.30f1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Zenject.ReflectionBaking.Mono.Cecil.Mdb">
+      <HintPath>Assets\Packages\Plugins\Zenject\OptionalExtras\ReflectionBaking\Lib\Zenject.ReflectionBaking.Mono.Cecil.Mdb.dll</HintPath>
+    </Reference>
+    <Reference Include="Zenject.ReflectionBaking.Mono.Cecil">
+      <HintPath>Assets\Packages\Plugins\Zenject\OptionalExtras\ReflectionBaking\Lib\Zenject.ReflectionBaking.Mono.Cecil.dll</HintPath>
+    </Reference>
+    <Reference Include="Zenject-usage">
+      <HintPath>Assets\Packages\Plugins\Zenject\Source\Usage\Zenject-usage.dll</HintPath>
+    </Reference>
+    <Reference Include="Zenject.ReflectionBaking.Mono.Cecil.Pdb">
+      <HintPath>Assets\Packages\Plugins\Zenject\OptionalExtras\ReflectionBaking\Lib\Zenject.ReflectionBaking.Mono.Cecil.Pdb.dll</HintPath>
+    </Reference>
+    <Reference Include="Zenject.ReflectionBaking.Mono.Cecil.Rocks">
+      <HintPath>Assets\Packages\Plugins\Zenject\OptionalExtras\ReflectionBaking\Lib\Zenject.ReflectionBaking.Mono.Cecil.Rocks.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.30f1\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
@@ -716,6 +732,12 @@
     <Reference Include="Unity.VisualStudio.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Sysroot.Linux_x86_64">
+      <HintPath>Library\ScriptAssemblies\Unity.Sysroot.Linux_x86_64.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Toolchain.Win-x86_64-Linux-x86_64">
+      <HintPath>Library\ScriptAssemblies\Unity.Toolchain.Win-x86_64-Linux-x86_64.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
     </Reference>
@@ -737,6 +759,9 @@
     <Reference Include="UnityEngine.UI">
       <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.SysrootPackage.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.SysrootPackage.Editor.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Abstractions.csproj">
@@ -750,6 +775,10 @@
     <ProjectReference Include="Presenter.csproj">
       <Project>{AA9A9D7A-CF4C-AD0C-2383-5AA7FA4F0127}</Project>
       <Name>Presenter</Name>
+    </ProjectReference>
+    <ProjectReference Include="Outline.csproj">
+      <Project>{12C2C843-3977-DEDC-3D99-BE908CC66BC4}</Project>
+      <Name>Outline</Name>
     </ProjectReference>
     <ProjectReference Include="Core.csproj">
       <Project>{532848CF-55EF-350E-1560-4F6FA659EBBE}</Project>
@@ -766,6 +795,22 @@
     <ProjectReference Include="View.csproj">
       <Project>{8118A01B-2FBA-6C18-57DF-3422F632A4DA}</Project>
       <Name>View</Name>
+    </ProjectReference>
+    <ProjectReference Include="Zenject-Editor.csproj">
+      <Project>{64880896-C344-F9EA-D652-848EB14D71D3}</Project>
+      <Name>Zenject-Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Zenject-ReflectionBaking-Editor.csproj">
+      <Project>{B10082CE-9A61-6330-E4A4-422EFB298564}</Project>
+      <Name>Zenject-ReflectionBaking-Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Zenject-PoolMonitor-Editor.csproj">
+      <Project>{3FE057D9-AF5D-17F3-9D63-CD1BE4735433}</Project>
+      <Name>Zenject-PoolMonitor-Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Zenject.csproj">
+      <Project>{4920EEF5-DD90-32BD-AB34-FF8487EC1D2B}</Project>
+      <Name>Zenject</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

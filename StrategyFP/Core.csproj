@@ -57,6 +57,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Core\MainBuilding.cs" />
+    <Compile Include="Assets\Scripts\Core\MainUnit.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Scripts\Core\Core.asmdef" />
@@ -694,6 +695,10 @@
     <ProjectReference Include="Outline.csproj">
       <Project>{12C2C843-3977-DEDC-3D99-BE908CC66BC4}</Project>
       <Name>Outline</Name>
+    </ProjectReference>
+    <ProjectReference Include="Utils.csproj">
+      <Project>{496C54FA-0F96-5698-A9B8-7DC4045B6CFD}</Project>
+      <Name>Utils</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

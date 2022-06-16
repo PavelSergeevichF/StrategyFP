@@ -57,6 +57,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\UserControlSystem\UI\View\CommandButtonsView.cs" />
+    <Compile Include="Assets\Scripts\UserControlSystem\UI\View\OutlineSelector.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Scripts\UserControlSystem\UI\View\View.asmdef" />
@@ -682,6 +683,10 @@
     <ProjectReference Include="Abstractions.csproj">
       <Project>{832F50FA-66AA-6E3E-45DF-CE118CACE15A}</Project>
       <Name>Abstractions</Name>
+    </ProjectReference>
+    <ProjectReference Include="Outline.csproj">
+      <Project>{12C2C843-3977-DEDC-3D99-BE908CC66BC4}</Project>
+      <Name>Outline</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -56,7 +56,18 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\UserControlSystem\UI\Model\CommandCreator\PatrolCommandCommandCreator.cs" />
+    <Compile Include="Assets\Scripts\UserControlSystem\UI\Model\Vector3Value.cs" />
+    <Compile Include="Assets\Scripts\UserControlSystem\UI\Model\CommandCreator\ProduceUnitCommandCommandCreator.cs" />
+    <Compile Include="Assets\Scripts\UserControlSystem\UI\Model\CommandButtonsModel.cs" />
+    <Compile Include="Assets\Scripts\UserControlSystem\UI\Model\CommandCreator\CommandCreatorBase.cs" />
+    <Compile Include="Assets\Scripts\UserControlSystem\UI\Model\CommandCreator\CancellableCommandCreatorBase.cs" />
+    <Compile Include="Assets\Scripts\UserControlSystem\UI\Model\CommandCreator\MoveCommandCommandCreator.cs" />
+    <Compile Include="Assets\Scripts\UserControlSystem\UI\Model\CommandCreator\StopCommandCommandCreator.cs" />
     <Compile Include="Assets\Scripts\UserControlSystem\UI\Model\SelectableValue.cs" />
+    <Compile Include="Assets\Scripts\UserControlSystem\UI\Model\AttackableValue.cs" />
+    <Compile Include="Assets\Scripts\UserControlSystem\UI\Model\CommandCreator\AttackCommandCommandCreator.cs" />
+    <Compile Include="Assets\Scripts\UserControlSystem\UI\Model\UIModelInstaller.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Scripts\UserControlSystem\UI\Model\Model.asmdef" />
@@ -308,8 +319,14 @@
     <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
       <HintPath>C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Editor\SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
+    <Reference Include="Zenject-usage">
+      <HintPath>Assets\Packages\Plugins\Zenject\Source\Usage\Zenject-usage.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Plastic.Newtonsoft.Json">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@1.15.12\Lib\Editor\PlasticSCM\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Zenject.ReflectionBaking.Mono.Cecil.Pdb">
+      <HintPath>Assets\Packages\Plugins\Zenject\OptionalExtras\ReflectionBaking\Lib\Zenject.ReflectionBaking.Mono.Cecil.Pdb.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Plastic.Antlr3.Runtime">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@1.15.12\Lib\Editor\PlasticSCM\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
@@ -317,8 +334,17 @@
     <Reference Include="unityplastic">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@1.15.12\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
     </Reference>
+    <Reference Include="Zenject.ReflectionBaking.Mono.Cecil.Rocks">
+      <HintPath>Assets\Packages\Plugins\Zenject\OptionalExtras\ReflectionBaking\Lib\Zenject.ReflectionBaking.Mono.Cecil.Rocks.dll</HintPath>
+    </Reference>
     <Reference Include="log4netPlastic">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@1.15.12\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
+    </Reference>
+    <Reference Include="Zenject.ReflectionBaking.Mono.Cecil.Mdb">
+      <HintPath>Assets\Packages\Plugins\Zenject\OptionalExtras\ReflectionBaking\Lib\Zenject.ReflectionBaking.Mono.Cecil.Mdb.dll</HintPath>
+    </Reference>
+    <Reference Include="Zenject.ReflectionBaking.Mono.Cecil">
+      <HintPath>Assets\Packages\Plugins\Zenject\OptionalExtras\ReflectionBaking\Lib\Zenject.ReflectionBaking.Mono.Cecil.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.30f1\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
@@ -679,9 +705,21 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="UserControlSystem.csproj">
+      <Project>{4D349D53-EDA0-1819-D44D-DB28493E3408}</Project>
+      <Name>UserControlSystem</Name>
+    </ProjectReference>
     <ProjectReference Include="Abstractions.csproj">
       <Project>{832F50FA-66AA-6E3E-45DF-CE118CACE15A}</Project>
       <Name>Abstractions</Name>
+    </ProjectReference>
+    <ProjectReference Include="Utils.csproj">
+      <Project>{496C54FA-0F96-5698-A9B8-7DC4045B6CFD}</Project>
+      <Name>Utils</Name>
+    </ProjectReference>
+    <ProjectReference Include="Zenject.csproj">
+      <Project>{4920EEF5-DD90-32BD-AB34-FF8487EC1D2B}</Project>
+      <Name>Zenject</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
