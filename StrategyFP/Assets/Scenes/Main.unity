@@ -1719,6 +1719,10 @@ PrefabInstance:
       propertyPath: _LegacyContext
       value: 
       objectReference: {fileID: 11400000, guid: 9b722f212be4657489da1141c6eb6c44, type: 2}
+    - target: {fileID: 1172917591528423364, guid: 5dd235a43d36f9347a1a35df441f10d9, type: 3}
+      propertyPath: _attackableValue
+      value: 
+      objectReference: {fileID: 11400000, guid: fc85517be6c33de4bac916ad0add4eaf, type: 2}
     - target: {fileID: 3406379919738051038, guid: 5dd235a43d36f9347a1a35df441f10d9, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
